@@ -229,11 +229,6 @@
                 </aside>
             </article>
 
-
-
-
-            </article>
-
             <article>
                 <h2 class="presentacion">Formación complementaria</h2>
                 <h3 class="presentacion"> Desarrollo de software.</h3>
