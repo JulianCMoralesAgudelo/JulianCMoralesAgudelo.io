@@ -105,7 +105,7 @@ a,
 a:link,
 a:visited {
     text-decoration: none;
-    color: var(--nord0);
+    color: blue;
 }
 
 a:hover {
