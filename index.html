@@ -1,268 +1,184 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae - Julián Camilo Morales Agudelo</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            line-height: 1.6;
-            padding: 40px;
-            text-align: left;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        p,
-        ul {
-            text-align: justify;
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: #333;
-            text-align: left;
-        }
-
-        .section {
-            margin-bottom: 30px;
-            padding-bottom: 15px;
-            border-bottom: 2px solid #000;
-        }
-
-        .section h2 {
-            font-size: 1.8rem;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-        }
-
-        .company-card {
-            margin-bottom: 20px; /* Espacio entre cada empresa */
-            padding: 10px; /* Opcional, para mejorar la apariencia */
-            border-bottom: 1px solid #ccc; /* Opcional, para separar visualmente */
-        }
-        
-
-        .profile-photo {
-            width: 260px;
-            height: 260px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-    </style>
-
+    <title>Julián Camilo Morales Agudelo - CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <div class="container">
+    <div class="min-h-screen bg-gray-100 p-4">
+        <main class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-6">
+            <!-- Header Section -->
+            <header class="text-center mb-8">
+                <img
+                    src="https://avatars.githubusercontent.com/u/65191236?v=4"
+                    alt="Julián Camilo Morales Agudelo"
+                    class="profile-photo"
+                />
+                <h1>Julián Camilo Morales Agudelo</h1>
+                <p class="subtitle">Administración de Bases de Datos Enfocado en Seguridad</p>
+                <div class="contact-info">
+                    <p>Email: juliancmorales10@gmail.com</p>
+                    <p>Teléfono: 304-244-88-22</p>
+                    <p>Ubicación: Bello, Antioquia</p>
+                </div>
+            </header>
 
-        <!-- Foto de perfil -->
-        <img class="profile-photo" src="https://avatars.githubusercontent.com/u/65191236?v=4"
-            alt="Julián Camilo Morales Agudelo">
+            <!-- Professional Summary -->
+            <section class="section">
+                <h2>Resumen Profesional</h2>
+                <p class="text-justify">
+                    Tecnólogo en Electrónica y Desarrollo de Software con más de cinco años de experiencia en soporte
+                    técnico, administración e instalación de sistemas operativos Windows y GNU/Linux. Especialista en
+                    administración de bases de datos, con conocimientos en programación, redes, scripting y herramientas
+                    ofimáticas. Enfocado en la automatización de tareas mediante scripts en Bash y PowerShell, con capacidad
+                    para diagnosticar y resolver incidencias técnicas, optimizar entornos de TI y garantizar el
+                    funcionamiento eficiente de infraestructuras tecnológicas.
+                </p>
+            </section>
 
-        <h1>Julián Camilo Morales Agudelo</h1>
-        <p><strong>Administración de Bases de Datos Enfocado en Seguridad</strong></p>
-        <p class="contact-info">
-            <span>Email:</span> juliancmorales10@gmail.com<br>
-            <span>Teléfono:</span> 304-244-88-22<br>
-            <span>Ubicación:</span> Bello, Antioquia
-        </p>
-
-        <div class="section">
-            <h2>Resumen Profesional</h2>
-            <p>
-                Tecnólogo en Electrónica y Desarrollo de Software con más de cinco años de experiencia en soporte
-                técnico, administración e instalación de sistemas operativos Windows y GNU/Linux. Especialista en
-                administración de bases de datos, con conocimientos en programación, redes, scripting y herramientas
-                ofimáticas. Enfocado en la automatización de tareas mediante scripts en Bash y PowerShell, con capacidad
-                para diagnosticar y resolver incidencias técnicas, optimizar entornos de TI y garantizar el
-                funcionamiento eficiente de infraestructuras tecnológicas.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2>Experiencia Laboral</h2>
-
-            <div class="company-card">
-                <h3>Tata Consultancy Services - Proyecto Bancolombia ITO</h3>
-                <p class="job-title">Administrador de Bases de Datos</p>
-                <p class="duration">Enero 2023 - Actualidad</p><br>
-                <h4>Funciones:</h4>
-                <ul>
-                    <ul>Gestión y mantenimiento de bases de datos en entornos críticos.</ul>
-                    <ul>Implementación de parches y actualizaciones de seguridad.</ul>
-                    <ul>Optimización del rendimiento de bases de datos.</ul>
-                </ul>
-            </div>
-
-            <div class="company-card">
-                <h3>Emergía Customer Care</h3>
-                <p class="job-title">Técnico de Conducción Analista de datos</p>
-                <p class="duration">2021 - 2023</p><br>
-                <h4>Funciones:</h4>
-                <ul>
-                    <ul>Análisis de bases de datos y KPI.</ul>
-                    <ul>Administración y gestión de personal.</ul>
-                    <ul>Optimización y visualización de datos.</ul>
-                </ul>
-            </div>
-
-            <div class="company-card">
-                <h3>Intelligent Electrones Solutions</h3>
-                <p class="job-title">Técnico Soporte</p>
-                <p class="duration">2015 - 2020</p><br>
-                <h4>Funciones:</h4>
-                <ul>
-                    <ul>Administración e instalación de sistemas operativos.</ul>
-                    <ul>Soporte técnico y mantenimiento de bases de datos.</ul>
-                    <ul>Desarrollo de scripts para monitoreo y respaldos.</ul>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Formación Académica</h2>
-            <ul>
-                <ul><strong>Estudiante de Ingeniería de Sistemas </strong>Universidad Nacional Abierta y a Distancia
-                    <strong>(UNAD)</strong>
-                </ul>
-                <ul><strong>Tecnología en Desarrollo de Software</strong> Institución Universitaria Digital de Antioquia
-                </ul>
-                <ul><strong>Tecnología en Electrónica</strong> Instituto Tecnológico Metropolitano ITM</ul>
-                <ul><strong>Bachiller Académico</strong> Liceo Nocturno Francisco Antonio Zea</ul>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Habilidades</h2>
-            <div class="skills-list">
-                <div>
-                    <h3>Habilidades Técnicas</h3>
+            <!-- Work Experience -->
+            <section class="section">
+                <h2>Experiencia Laboral</h2>
+                <div class="experience-card">
+                    <h3>Tata Consultancy Services - Proyecto Bancolombia ITO</h3>
+                    <p class="job-title">Administrador de Bases de Datos</p>
+                    <p class="duration">Enero 2023 - Actualidad</p>
+                    <a href="https://www.tcs.com/" class="company-link">
+                        Tata Consultancy Services: Driving Innovation and Building on Belief
+                    </a>
+                    <h4>Funciones:</h4>
                     <ul>
-                        <ul>Administración de bases de datos (Oracle, SQL Server).</ul>
-                        <ul>Automatización de procesos con scripts.</ul>
-                        <ul>Gestión de vulnerabilidades y parches de seguridad.</ul>
+                        <li>Gestión y mantenimiento de bases de datos en entornos críticos</li>
+                        <li>Implementación de parches y actualizaciones de seguridad</li>
+                        <li>Optimización del rendimiento de bases de datos</li>
                     </ul>
                 </div>
-                <br>
-                <div>
-                    <h3>Habilidades Blandas</h3>
+
+                <div class="experience-card">
+                    <h3>Emergía Customer Care</h3>
+                    <p class="job-title">Técnico de Conducción Analista de datos</p>
+                    <p class="duration">2021 - 2023</p>
+                    <a href="https://www.emergiacorporativo.com/" class="company-link">
+                        Emergia Corporativo: Soluciones energéticas innovadoras para un futuro sostenible
+                    </a>
+                    <h4>Funciones:</h4>
                     <ul>
-                        <ul>Trabajo en equipo.</ul>
-                        <ul>Resolución de problemas.</ul>
-                        <ul>Comunicación efectiva.</ul>
+                        <li>Análisis de bases de datos y KPI</li>
+                        <li>Administración y gestión de personal</li>
+                        <li>Optimización y visualización de datos</li>
                     </ul>
                 </div>
-                <br>
-                <div>
-                    <h3>Gustos Personales</h3>
+
+                <div class="experience-card">
+                    <h3>Soluciones IES</h3>
+                    <p class="job-title">Técnico Soporte</p>
+                    <p class="duration">2015 - 2020</p>
+                    <a href="https://www.solucionesies.com/" class="company-link">
+                        Desarrollo software y hardware para negocios | Soluciones IES
+                    </a>
+                    <h4>Funciones:</h4>
                     <ul>
-                        <ul>Reuniones Familiares.</ul>
-                        <ul>Tarde de peliculas.</ul>
-                        <ul>Caminar.</ul>
+                        <li>Administración e instalación de sistemas operativos</li>
+                        <li>Soporte técnico y mantenimiento de bases de datos</li>
+                        <li>Desarrollo de scripts para monitoreo y respaldos</li>
                     </ul>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <div class="section">
-            <h2>Idiomas</h2>
-            <ul>
-                <ul>Español - Nativo</ul>
-                <ul>Inglés - Intermedio</ul>
-            </ul>
-        </div>
+            <!-- Education -->
+            <section class="section">
+                <h2>Formación Académica</h2>
+                <ul class="education-list">
+                    <li><strong>Estudiante de Ingeniería de Sistemas</strong> - Universidad Nacional Abierta y a Distancia (UNAD)</li>
+                    <li><strong>Tecnología en Desarrollo de Software</strong> - Institución Universitaria Digital de Antioquia</li>
+                    <li><strong>Tecnología en Electrónica</strong> - Instituto Tecnológico Metropolitano ITM</li>
+                    <li><strong>Bachiller Académico</strong> - Liceo Nocturno Francisco Antonio Zea</li>
+                </ul>
+            </section>
 
-        <div class="section">
-            <h2>Certificaciones y Cursos</h2>
-            <ul>
-                <ul>Administración Linux</ul>
-                <ul>Introducción a Bases de Datos</ul>
-                <ul>Introducción a Docker</ul>
-                <ul>Introducción a Python</ul>
-                <ul>Microsoft Excel Intermedio</ul>
-            </ul>
-        </div>
+            <!-- Skills -->
+            <section class="section">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skills-column">
+                        <h3>Habilidades Técnicas</h3>
+                        <ul>
+                            <li>Administración de bases de datos (Oracle, SQL Server)</li>
+                            <li>Automatización de procesos con scripts</li>
+                            <li>Gestión de vulnerabilidades y parches de seguridad</li>
+                        </ul>
+                    </div>
+                    <div class="skills-column">
+                        <h3>Habilidades Blandas</h3>
+                        <ul>
+                            <li>Trabajo en equipo</li>
+                            <li>Resolución de problemas</li>
+                            <li>Comunicación efectiva</li>
+                        </ul>
+                    </div>
+                    <div class="skills-column">
+                        <h3>Gustos Personales</h3>
+                        <ul>
+                            <li>Reuniones Familiares</li>
+                            <li>Tarde de películas</li>
+                            <li>Caminar</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-        <div class="section">
-            <h2>Referencias</h2>
-            <h3>Personales</h3>
-            <ul class="reference">
-                <ul><strong>Nombre:</strong> Jhon Jairo Rivera Casado<br>
-                    <strong>Cargo:</strong> Líder del proyecto de bases de datos<br>
-                    <strong>Empresa:</strong> Tata Consultancy Services<br>
-                    <strong>Teléfono:</strong> 321-489-8491<br><br>
+            <!-- Languages -->
+            <section class="section">
+                <h2>Idiomas</h2>
+                <ul class="languages-list">
+                    <li>Español - Nativo</li>
+                    <li>Inglés - Intermedio</li>
                 </ul>
-                <ul><strong>Nombre:</strong> Wiliam Alexander Useche Beltrán<br>
-                    <strong>Cargo:</strong> Administrador de bases de datos<br>
-                    <strong>Empresa:</strong> Tata Consultancy Services<br>
-                    <strong>Teléfono:</strong> 301-700-4253<br><br>
-                </ul>
-                <ul><strong>Nombre:</strong> Javier Alexander Lopera Carmona<br>
-                    <strong>Cargo:</strong> Administrador de bases de datos<br>
-                    <strong>Empresa:</strong> Tata Consultancy Services<br>
-                    <strong>Teléfono:</strong> 319-686-5288<br><br>
-                </ul>
-            </ul>
+            </section>
 
-            <h3>Familiares</h3>
-            
-            <ul>
-                <ul class="reference">
-                    <strong>Nombre:</strong> Yisela María Guzmán Morales<br>
-                    <strong>Cargo:</strong> Coordinadora Contable<br>
-                    <strong>Empresa:</strong> Innova Club S.A.S<br>
-                    <strong>Teléfono:</strong> 320-507-44-25<br><br>
+            <!-- Certifications -->
+            <section class="section">
+                <h2>Certificaciones y Cursos</h2>
+                <ul class="certifications-list">
+                    <li>Administración Linux</li>
+                    <li>Introducción a Bases de Datos</li>
+                    <li>Introducción a Docker</li>
+                    <li>Introducción a Python</li>
+                    <li>Microsoft Excel Intermedio</li>
                 </ul>
-                <ul class="reference">
-                    <strong>Nombre:</strong> Lina María Calle Pérez<br>
-                    <strong>Cargo:</strong> Contadora<br>
-                    <strong>Empresa:</strong> Bruna Lingerie<br>
-                    <strong>Teléfono:</strong> 315-616-50-80<br><br>
-                </ul>
-            </ul>
-        </div>
+            </section>
 
-        <h3>Redes Sociales</h3>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/juliancmorales/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/JulianCMoralesAgudelo" target="_blank">GitHub</a>
-            <a href="https://wa.me/573042448822" target="_blank">WhatsApp</a>
-        </div>
+            <!-- References -->
+            <section class="section">
+                <h2>Referencias</h2>
+                <div class="references-section">
+                    <h3>Personales</h3>
+                    <div class="references-grid" id="personalReferences"></div>
+                    
+                    <h3>Familiares</h3>
+                    <div class="references-grid" id="familyReferences"></div>
+                </div>
+            </section>
+
+            <!-- Social Links -->
+            <footer class="social-links">
+                <a href="https://www.linkedin.com/in/juliancmorales/" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="icon linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/JulianCMoralesAgudelo" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="icon github"></i>
+                    GitHub
+                </a>
+                <a href="https://wa.me/573042448822" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i class="icon whatsapp"></i>
+                    WhatsApp
+                </a>
+            </footer>
+        </main>
     </div>
-    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
