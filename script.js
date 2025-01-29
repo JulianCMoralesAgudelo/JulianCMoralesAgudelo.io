@@ -30,7 +30,7 @@ const familyReferences = [
     {
         name: "Lina María Calle Pérez",
         position: "Contadora",
-        company: "Bruna Lingerie",
+        company: "Arguty SA e Inversiones los Lagos GP SAS",
         phone: "315-616-50-80"
     }
 ];
